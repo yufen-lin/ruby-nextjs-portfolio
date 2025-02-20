@@ -14,7 +14,7 @@ export default function ThemeToggle() {
       size="icon"
       onClick={() => setTheme(isDark ? "light" : "dark")}
       aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
-      className="relative hidden p-5 sm:flex"
+      className="fixed bottom-4 right-4 z-50 rounded-full p-5 sm:static sm:flex sm:rounded-md"
     >
       <Sun className="rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
       <MoonStar className="absolute rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />

@@ -11,7 +11,10 @@ const tabItems = [
 
 export default function About() {
   return (
-    <section id="about" className="flex flex-col items-center px-8 py-12">
+    <section
+      id="about"
+      className="xs:px-8 flex flex-col items-center px-6 py-12"
+    >
       <h2 className="section-title">About Me</h2>
 
       <div className="flex w-full flex-col items-center">

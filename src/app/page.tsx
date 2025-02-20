@@ -4,7 +4,7 @@ import AboutSection from "@/components/home/AboutSection";
 
 export default function Home() {
   return (
-    <div className="container mx-auto py-10">
+    <div className="mx-auto py-10 sm:container">
       <HeroSection />
       <AboutSection />
       <ContactSection />

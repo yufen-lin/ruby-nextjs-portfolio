@@ -5,20 +5,22 @@ import TimelineNode from "./TimelineNode";
 
 const workExperienceData = [
   {
-    period: "October 2021 － July 2024",
+    period: "Oct. 2021 － Jul. 2024",
     name: "Wistron Corporation",
     title: "Front end engineer",
     logoSrc: "/logo/wistron_logo.png",
     description:
-      "Participated in the development of medical and internal systems, using React.js and Ant Design for front-end development. Responsible for UI implementation and API integration while collaborating with PMs and backend engineers.",
+      "Participated in the development of medical and internal systems, focusing on front-end development, UI implementation, and API integration while collaborating with PMs and backend engineers.",
+    type: "work",
   },
   {
-    period: "September 2020 － January 2021",
+    period: "Sep. 2020 － Jan. 2021",
     name: "Reve Cafe",
     title: "Front of House Staff",
     logoSrc: "/logo/reve_cafe_logo.png",
     description:
-      "Since I enjoy interacting with people, I chose to work as a service staff to explore different career paths. At the same time, I started learning web development and gradually realized how much I enjoyed coding. Eventually, I confirmed my passion for development and decided to become a front-end engineer.",
+      "Since I enjoy interacting with people, I chose to work as a service staff to explore different career paths. At the same time, I started learning web development and gradually realized how much I enjoyed coding. So, I decided to become a front-end engineer ✨.",
+    type: "work",
   },
 ];
 
@@ -57,6 +59,7 @@ export default function Experiences() {
                   title={work.title}
                   logoSrc={work.logoSrc}
                   description={work.description}
+                  type={work.type}
                 />
               }
             />

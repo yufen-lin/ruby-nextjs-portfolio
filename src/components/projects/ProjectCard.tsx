@@ -33,7 +33,7 @@ export default function ProjectCard({
   project: ProjectCardProps;
 }) {
   return (
-    <Card className="m-auto w-[90%] bg-gray-100/30 dark:bg-slate-700/40 md:m-0 md:w-full lg:max-w-[480px]">
+    <Card className="m-auto w-[100%] bg-gray-100/30 dark:bg-slate-700/40 md:m-0 md:w-full lg:max-w-[470px]">
       <CardHeader className="pb-3">
         <CardDescription className="text-sm text-slate-500">
           {project.type}

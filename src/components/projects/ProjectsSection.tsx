@@ -9,6 +9,7 @@ const projectsData = [
       "A cozy little corner on the web, built with Next.js, TypeScript, Tailwind CSS, and a whole lot of love 💖. It’s all about me — my skills, experiences, and projects. Feel free to explore and say hi 👋🏻.",
     techs: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Vercel"],
     sourceCodeLink: "https://github.com/yufen-lin/ruby-nextjs-portfolio",
+    liveDemoLink: "https://ruby-nextjs-portfolio.vercel.app/",
   },
   {
     title: "Internal GenAI platform",
@@ -61,7 +62,7 @@ export default function ProjectsSection() {
     <div className="flex flex-col items-center">
       <h2 className="section-title mb-10">Projects</h2>
 
-      <div className="flex w-full flex-col flex-wrap justify-center gap-6 md:flex-row xl:gap-7">
+      <div className="flex w-full flex-col flex-wrap justify-center gap-5 px-4 md:flex-row lg:w-full xl:gap-6">
         {projectsData.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}

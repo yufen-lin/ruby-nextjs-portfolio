@@ -16,14 +16,14 @@ const TextTyping = () => {
       wrapper="span"
       speed={20}
       repeat={0}
-      className="inline-block whitespace-pre-line text-center font-gaegu text-4xl font-semibold lg:whitespace-normal lg:text-[42px] xl:text-5xl"
+      className="xs:text-4xl inline-block whitespace-pre-line text-center font-gaegu text-3xl font-semibold lg:whitespace-normal lg:text-[42px] xl:text-5xl"
     />
   );
 };
 
 export default function Hero() {
   return (
-    <section className="flex flex-col items-center px-10 py-8">
+    <section className="xs:px-10 flex flex-col items-center px-6 py-8">
       <div className="flex flex-col items-center">
         <div className="mt-3 flex items-center gap-2 rounded-md border px-3 py-1 dark:border-slate-700 dark:bg-slate-800 dark:text-white md:mt-0">
           <div className="size-2.5 rounded-full bg-green-500"></div>
@@ -48,7 +48,7 @@ export default function Hero() {
         </span>
       </h1>
 
-      <div className="flex w-full flex-col gap-4 p-6 text-center text-xl font-medium text-gray-700 dark:text-gray-400 sm:max-w-lg md:max-w-2xl lg:max-w-3xl lg:p-8 lg:text-2xl xl:max-w-2xl xl:gap-6 xl:text-2xl">
+      <div className="xs:text-xl flex w-full flex-col gap-4 py-4 text-center text-lg font-medium text-gray-700 dark:text-gray-400 sm:max-w-lg md:max-w-2xl lg:max-w-3xl lg:py-6 lg:text-2xl xl:max-w-2xl xl:gap-6 xl:text-2xl">
         <p>
           Hey! I’m Ruby, a{" "}
           <span className="font-bold text-yellow-600">frontend engineer</span>{" "}

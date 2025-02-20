@@ -7,9 +7,10 @@ const educationData = [
   {
     period: "2016 - 2020",
     name: "Tamkang University",
-    title: "",
+    title: "Bachelor of Information Management",
     logoSrc: "/logo/tamkang_university_logo.png",
-    description: "Bachelor of Information Management",
+    description: "",
+    type: "education",
   },
 ];
 
@@ -34,6 +35,7 @@ export default function Education() {
                   title={school.title}
                   logoSrc={school.logoSrc}
                   description={school.description}
+                  type={school.type}
                 />
               }
             />

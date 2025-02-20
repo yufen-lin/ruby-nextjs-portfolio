@@ -35,6 +35,7 @@ function SkillItem({
         alt="react-logo"
         width={50}
         height={50}
+        className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px]"
       />
       <div className="font-semibol mt-2 text-sm">{name}</div>
       {description && (
@@ -66,7 +67,7 @@ export default function Skills() {
                 {item.category}
               </CardTitle>
             </CardHeader>
-            <CardContent className="flex flex-wrap gap-6">
+            <CardContent className="flex flex-wrap gap-3 sm:gap-4">
               {item.skills.map((skill) => (
                 <SkillItem
                   key={skill.name}

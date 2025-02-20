@@ -43,7 +43,10 @@ function JobDetail({ Icon, label, content }: JobDetailProps) {
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex flex-col items-center px-10 py-12">
+    <section
+      id="contact"
+      className="xs:px-10 flex flex-col items-center px-6 py-12"
+    >
       <h2 className="section-title">Contact Me</h2>
 
       <div className="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-20">
@@ -69,8 +72,10 @@ export default function Contact() {
         </div>
 
         <div className="flex flex-col gap-3 text-lg">
-          <div className="mb-2 flex flex-col gap-3">
-            <div className="font-semibold">Job Preferences</div>
+          <div className="xs:text-lg mb-2 flex flex-col gap-3 text-base">
+            <div className="xs:text-xl text-lg font-semibold">
+              Job Preferences
+            </div>
 
             <div className="flex flex-col gap-1">
               <JobDetail
@@ -98,7 +103,7 @@ export default function Contact() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-1">
+          <div className="xs:text-lg flex flex-col gap-1 text-base">
             <div className="flex gap-3">
               <Mail />
               <a
