@@ -32,7 +32,7 @@ const projectsData = [
     type: "Work Project",
     imgSrc: "/project-images/pathology-project.png",
     description:
-      "Collaborated with Kaohsiung Veterans General Hospital to create the OWL Digital Pathology Platform, realizing the digitalization of pathology.",
+      "Collaborated with Kaohsiung Veterans General Hospital to create the digital pathology platform, realizing the digitalization of pathology.",
     techs: ["React.js", "Ant Design"],
   },
   {

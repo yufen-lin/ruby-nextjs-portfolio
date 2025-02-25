@@ -7,7 +7,7 @@ const educationData = [
   {
     period: "2016 - 2020",
     name: "Tamkang University",
-    title: "Bachelor of Information Management",
+    title: "Bachelor of Business Administration in Information Management",
     logoSrc: "/logo/tamkang_university_logo.png",
     description: "",
     type: "education",

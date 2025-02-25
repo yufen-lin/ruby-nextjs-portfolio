@@ -67,8 +67,14 @@ export default function Hero() {
 
       <div className="mt-4 flex flex-col gap-3 sm:flex-row">
         <Button className="text-md rounded-3xl border p-6 font-semibold dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-900/10">
-          <span>Download Resume</span>
-          <ArrowDownToLine />
+          <a
+            href="/resume.pdf"
+            download="Ruby_Resume.pdf"
+            className="flex gap-2"
+          >
+            <span>Download Resume</span>
+            <ArrowDownToLine />
+          </a>
         </Button>
         <Button className="text-md rounded-3xl border border-gray-200 bg-white p-6 font-semibold text-slate-900 hover:bg-gray-100 dark:hover:bg-gray-200">
           <Link href="#contact" className="flex gap-2">
