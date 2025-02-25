@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center" id="title">🌟 Welcome to Ruby's Portfolio!</h1>
+<p id="description">Hey there! 👋 I'm Ruby, a front-end engineer who loves crafting delightful web experiences. This portfolio is my cozy dev corner, built with Next.js, TypeScript, Tailwind CSS, and Shadcn UI—and sprinkled with love! ✨</p>
 
-## Getting Started
+<p>👀 <a href="https://ruby-nextjs-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+  Take a peek!
+</a> – Don’t be shy, it won’t bite! 🐾</p>
 
-First, run the development server:
+![portfolio](https://github.com/user-attachments/assets/dc18b937-ac0e-4f5c-9463-d7317fa86fae)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### ✨ Features
+* 👩🏻‍💻 Showcasing My Journey – Work experience, projects, skills and personal insights.
+* 🖥️ Responsive & Modern Design
+* 🌛 Dark Mode Support
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🛠 Tech Stack
+* ⚡️ Framework: Next.js
+* ✍🏻 Language: TypeScript
+* 🎨 Styling: Tailwind CSS, Shadcn UI
+* 🌍 Deploy: Vercel
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### 🚧 Coming Soon...
+* 🌎 i18n (zh-TW)
+* 📊 SEO Optimization
+* 🪄 Animation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📬 Come Say Hi!
+<p>If you like what you see (or just want to chat), feel free to reach out!
+</br>📧 <a href="mailto:ruby.yf.lin@gmail.com">ruby.yf.lin@gmail.com</a>
+</br>This is just the beginning—more fun features and projects are on the way! 🚀
+</br>Hope you enjoy your stay! Feel free to leave a little footprint 👣 before you go.</p>
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
